@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chargebee.com</title>
+</head>
+<style>
+    /* fix logo bottom */
+    #fixlogo {
+        position: fixed;
+        top: 520px;
+        right: 50px;
+    }
+
+    #fixlogo2 {
+        position: fixed;
+        top: 520px;
+    }
+
+    /* navbar styling  */
+    #navbar {
+        width: 97%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+
+
+    }
+
+    #left-navbar {
+        width: 60%;
+        display: flex;
+        margin: auto;
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+    #right-navbar {
+        width: 60%;
+        display: flex;
+        margin: auto;
+        gap: 20px;
+        justify-content: space-evenly;
+        margin-right: 0px;
+    }
+
+    #companyname {
+        font-family: Cedarville Cursive;
+        font-style: oblique;
+        font-size: 30px;
+        margin-top: 8px;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    #demo {
+        background-color: rgb(255, 120, 70);
+        padding: 5px;
+        color: aliceblue;
+        margin-top: 15px;
+    }
+
+    /* staff details styling */
+    #crauser {
+        width: 94%;
+        display: flex;
+        margin: auto;
+        gap: 50px;
+        background-color: rgb(243,236,249);
+        /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+            url("../../media/examples/lizard.png"); */
+        border-radius: 35px;
+        margin-top: 30px;
+        position: static;
+
+    }
+
+    #left-crausal {
+
+        width: 50%;
+        margin: auto;
+
+    }
+
+    #left-crausal>p {
+        width: 70%;
+        text-align: center;
+        margin: 20px 70px;
+        color: teal;
+
+    }
+
+    #right-crausal {
+        width: 40%;
+        display: flex;
+        margin: 20px auto;
+    }
+
+    #left-crausal>h1 {
+        width: 90%;
+        font-family: cursive;
+        text-align: center;
+        font-size: 40px;
+        margin: 20px 0px;
+    }
+
+    #btn {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 50px;
+        margin-top: 60px;
+
+
+    }
+
+    #button1 {
+        background-color: rgb(84, 0, 175);
+        color: white;
+        padding: 19px 40px;
+        border: none;
+        border-radius: 35px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    #button2 {
+
+        color: black;
+        padding: 19px 20px;
+        border-color: black;
+        border-radius: 35px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    #right-crausal>h4 {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 320px;
+        font-size: 16px;
+    }
+
+    .move {
+        position: absolute;
+        top: 50%;
+        padding: 10px;
+        background-color: rgb(189, 189, 192);
+        font-size: 1.5rem;
+    }
+
+    #rightarrow {
+        margin-left: 460px;
+    }
+
+    #movinglogo {
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #bodypart {
+        width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 0.35fr 0.65fr;
+        margin-top: 70px;
+    }
+
+    #bodyright {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    #bodypart p {
+        width: 60%;
+        color: rgb(136, 136, 167);
+    }
+
+    #scroll-head {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    #scroll-head p {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 70px;
+        color: rgb(136, 136, 167);
+    }
+
+    #scroll-head h1 {
+        font-size: 35px;
+    }
+
+    #scrollpage {
+        width: 80%;
+        scroll-behavior: smooth;
+        padding: 25px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #scrollnav {
+        height: 50px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin: auto;
+        margin-top: -30px;
+    }
+
+    #scrollnav a:hover {
+        color: red;
+    }
+
+    #scrollnav a {
+        padding: 10px 25px;
+        font-size: 17px;
+        text-transform: capitalize;
+
+    }
+    #scroll{
+        padding: 10px 25px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:0.35fr 0.65fr;
+        margin-top: 50px;
+        gap: 50px;
+        row-gap: 80px;
+        text-align: left;
+        margin-left: 100px;
+    }
+    #scroll p,
+    #scroll li{
+        color:  rgb(136, 136, 167);
+        margin: 20px auto;
+
+    }
+    .scrollleft{
+        width: 90%;
+    }
+    #leaderspring{
+        width: 65%;
+        margin: auto;
+        margin-bottom: 170px;
+    }
+    #get-a-demo{
+        width: 95%;
+        height: 450px;
+        display: flex;
+        justify-content:space-around;
+        margin: auto;
+        background-color:rgb(78,32,146);
+        padding: 10px;
+    }
+    #demo-details img{
+        width: 110px;
+        border-radius: 50%;
+        margin-left: -0px;
+    }
+    #get-a-demo p{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+   
+    #demo-details{
+        background-color: white;
+        position: relative;
+       bottom: 100px;
+       left: 110px;
+        width: 50%;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 12px;
+        padding: 20px;
+    }
+    #image-of-logos{
+        position: relative;
+        bottom: 70px;
+        left: 50px;
+    }
+    #demo-left h1{
+        font-size: 50px;
+        color: white;
+        margin-left: 40px;
+    }
+    form{
+        margin-left: 30px;
+        padding: 30px;
+    }
+    input[type="email"]{
+       width: 290px;
+       padding: 22px;
+       border: 1px solid #ccc;
+       border-radius: 22px;
+       resize: vertical;
+       font-size: 25px;
+    }
+    input[type="submit"]{
+        background-color: #2b619e;
+        color: white;
+        padding: 22px  20px;
+        border: none;
+        border-radius: 15px;
+        width:150px ;
+        font-size: 20px;
+    }
+    input[type="submit"]:hover{
+        background-color: #3973b6;
+    }
+    footer{
+        width: 90%;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    margin:55px 150px;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    footer h3{
+          color: blue;
+    }
+    footer p,
+    footer h3{
+        cursor: pointer;
+    }
+
+
+
+    
+</style>
+
+<body>
+    <!-- logo bottom fix -->
+
+    <div id="fixlogo">
+        <img src="Screenshot (447).png" alt="">
+    </div>
+    <div id="fixlogo2">
+        <img src="Screenshot (448).png" alt="">
+    </div>
+    <!-- Creating a navbar -->
+    <div id="navbar">
+        <!-- create a left part of navbar -->
+        <div id="left-navbar">
+            <h1 id="companyname"><a href="homepage.html" style="color: black;">Chargebee</a></h1>
+            <h3>Product</h3>
+            <h3>Pricing</h3>
+            <h3>Solutions</h3>
+            <h3>Customers</h3>
+            <h3>Resources</h3>
+            <h3>Partners</h3>
+        </div>
+        <!-- creating a right part of navbar -->
+        <div id="right-navbar">
+            <h3>&#x1F30E English</h3>
+            <h3>&#x1F513 Log in</h3>
+            <h3 id="demo">Get a Demo ></h3>
+        </div>
+    </div>
+
+    <!-- Creating a staff details -->
+    <div id="crauser">
+        <!-- left-crausal -->
+        <div id="left-crausal">
+            <button id="leftarrow" class="move">   < </button>
+                    <h1 id="des">The subscription management platform that enabled Slidebean to slide into 30+
+                        countries.</h1>
+                    <p>Chargebee is the subscription billing and revenue
+                        management platform that lets you solve for your today,
+                        and scale for your tomorrow.</p>
+                    <div id="btn"><button id="button1">Get a Demo &#8594</button>
+                        <button id="button2">Sign up for free &#8594</button>
+                    </div>
+        </div>
+
+        <!-- right-crausal -->
+
+        <div id="right-crausal">
+
+            <img id="img"
+                src="https://webstatic.chargebee.com/assets/web/508/images/home/coc/customers/jose-bolanos.webp"
+                style="width:70%;border-radius: 40px;" alt="">
+            <h4 id="name">José Bolaños<br>CTO - Slidebean</h4>
+            <button id="rightarrow" class="move">></button>
+
+        </div>
+    </div>
+
+    <!-- moving company name  -->
+
+    <div id="movinglogo">
+        <marquee direction="left" height="100px">
+            <H2>OKTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PERCONA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STUDY.COM
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Doodle freedom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; freshworks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                KNEWTON </H2>
+        </marquee>
+    </div>
+
+    <!-- Beyond Billing -->
+    <div id="bodypart">
+        <div id="bodyleft">
+            <div>
+                <h1>Designed to go Beyond Billing.</h1>
+                <p>Get the freedom to experiment, launch, and scale strategies as fast as you can think of them. </p>
+            </div>
+            <div>
+                <img src="Screen Capture 024 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg"
+                    alt="">
+            </div>
+        </div>
+
+        <div id="bodyright">
+            <div>
+                <img src="Screen Capture 026 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg"
+                    alt="">
+                <h3>Rethink Pricing</h3>
+                <p>Pricing models.
+                    Grandfathering. One-click
+                    roll-back. Doesn't get
+                    easier!</p>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 027 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg"
+                    alt="">
+                <h3>Scale Globally</h3>
+                <p>Currencies, compliance &
+                    taxes, all handled
+                    already.</p>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 030 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg"
+                    alt="">
+                <h3>Capture New Segments</h3>
+                <p>March upmarket, go product-
+                    led, and everywhere between.</p>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 028 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg"
+                    alt="">
+                <h3>Launch into Subscriptions</h3>
+                <p>PIlOt a recurring revenue modet
+                    without breaking what's
+                    working.</p>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll part  -->
+
+    <div id="scroll-head">
+        <h1>Streamline Revenue Operations</h1>
+        <p>Chargebee automates the lead-to-ledger workflow across your revenue stack, so you can dream, deploy, and
+            enjoy the breeze.
+            While the MRR just keeps rolling.</p>
+    </div>
+
+    <div id="scrollpage">
+        <!-- scroll navbar -->
+        <div id="scrollnav">
+            <a href="#first">Subscription Automation</a>
+            <a href="#second">billing experiments</a>
+            <a href="#third">Revenue Intelligence</a>
+            <a href="#fourth">Extensible Platform</a>
+            <a href="#fifth">Enterprise-Grade Security</a>
+        </div>
+        <div id="scroll">
+            <div class="scrollleft" id="first">
+                <h2>Automate the Order-to-Revenue Lifecycle</h2>
+                <p>Collect recurring payments and automate your subscription billing logic - from checkout to reconciliation.</p>
+                <li>Quote-to-Cash</li>
+                <li>Trial Management</li>
+                <li>Tax Management</li>
+                <li>Lifecycle Automation</li>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 031 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg" alt="">
+            </div>
+            <div  class="scrollleft" id="second">
+                <h2>Align Billing Workflow with GTM Strategy</h2>
+                <p>Adjust price structures, product bundles, discount management, and recovery processes to maximize revenue.</p>
+                <li>Price modeling</li>
+                <li>Usage-based Billing</li>
+                <li>Plan & Product Catalog</li>
+                <li>480+ Billing Scenarios</li>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 032 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg" alt="">
+            </div>
+            <div class="scrollleft" id="third">
+                <h2>Drive Decisions with 360° Revenue Reporting</h2>
+                <p>Recognize revenue accurately, forecast business growth, and plug leaks across your order-to-revenue cycle with real-time insights.</p>
+                <li>Deferred Revenue Reporting</li>
+                <li>Revenue Recognition</li>
+                <li>Churn Reporting</li>
+                <li>Report Builder</li>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 033 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg" alt="">
+            </div>
+            <div class="scrollleft" id="fourth">
+                <h2>Scale Revenue Stack for Each Stage of Growth</h2>
+                <p>Upgrade finance, accounting, CRM, and more, on the revenue engine that scales with you.</p>
+                <li>Sales, Revenue & Marketing</li>
+                <li>Accounting & Finance</li>
+                <li>Support & Engagement</li>
+                <li>Inventory & Logistics</li>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 034 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg" alt="">
+            </div>
+            <div class="scrollleft" id="fifth">
+                <h2>Promise Secure Subscription Experiences</h2>
+                <p>Stay compliant with the latest taxation and privacy regulations to enter and scale new markets with agility.</p>
+                <li>SOC1 & SOC2 Compliant</li>
+                
+                <li>GDPR Ready</li>
+                <li>PCI DSS Level 1</li>
+                <li>99.9% Uptime</li>
+                <p><a href="">Learn More &#128395</a></p>
+            </div>
+            <div>
+                <img src="Screen Capture 035 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg" alt="">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+     <!-- leader spring -->
+
+    <div id="leaderspring">
+        <img src="Screen Capture 036 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg" alt="">
+    </div>
+    
+    <div id="get-a-demo">
+
+         <div id="demo-left">
+            <h1>Get a Demo Customized to Your Subscription Workflow</h1>
+            <form>
+                <input type="email" placeholder="email@company.com">
+                <input type="submit">
+            </form>
+         </div>
+                      <!-- right demo -->
+         <div id="demo-right">
+           <div id="demo-details">
+            <img src="https://webstatic.chargebee.com/assets/web/509/images/footer/robin-lambert.png" alt="">
+            <p>Using Chargebee is also one less area we have to worry about as we scale. We know that it'll adapt to most if not all situations that'll come up in the future.</p>
+            <h4>Robin Lambert</h4>
+               <p> Co-founder & CPO, Livestorm</p>
+           </div>
+
+           <div id="image-of-logos">
+               <img src="Screen Capture 037 - Subscription Management & Recurring Billing Software - Chargebee_ - www.chargebee.com.jpg" alt="">
+           </div>
+         </div>
+    </div>
+
+    <footer>
+        <div>
+            <h3>Product > </h3>
+             <p>Subscription Management</p>
+                <p> Recurring Billing and Invoicing</p>
+                <p>  Recurring Payments</p>
+                <p> Accounting and Taxes</p>
+                <p> SaaS Reporting</p>
+                <p> Enterprise Billing</p>
+                <p>Integrations</p>
+        </div>
+        <div>
+            <h3>Help & Support > </h3>
+            <p>Security</p>
+               <p>FAQs</p>
+               <p>  Status</p>
+               <p> Product Documentation</p>
+               <p>API Documentation</p>
+               <p> Supported Payment Gateways</p>
+               <p>ISitemap</p>
+        </div>
+        <div>
+            <h3>Resources > </h3>
+               <p>  Blog</p>
+               <p> Compare Payment Gateways</p>
+               <p> Tackling Payment Failures</p>
+               <p> Enterprise Billing Guide</p>
+               <p> Webinars</p>
+               <p>   Events</p>
+               <p> Subscription Academy</p>
+        </div>
+        <div>
+            <h3>Company > </h3>
+               <p>  Customers </p>
+               <p>   Partners</p>
+               <p>  Careers</p>
+               <p>  Press</p>
+               <p>  Brand Guidelines</p>
+               <p>     Terms of Service</p>
+               <p>   Privacy Policy</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+<script>
+
+    let imagelink = ["https://webstatic.chargebee.com/assets/web/508/images/home/coc/customers/jose-bolanos.webp",
+        "https://webstatic.chargebee.com/assets/web/508/images/home/coc/customers/paul-kapsner.webp",
+        "https://webstatic.chargebee.com/assets/web/508/images/home/coc/customers/rahul-gandhi.webp",
+        "https://webstatic.chargebee.com/assets/web/508/images/home/coc/customers/antoine-louiset.webp",
+        "https://webstatic.chargebee.com/assets/web/508/images/home/coc/customers/debbie-barrafato.webp"]
+
+    let name = ["José Bolaños<br>CTO - Slidebean",
+        "Paul Kapsner<br>Director Finance",
+        "Rahul Gandhi<br>CEO - MakeSpace",
+        "Antoine Louiset<br>CTO - Yousign",
+        "Debbie Barrafato <br>CFO - Rise Vision"]
+
+    let des = ["The subscription management platform that enabled Slidebean to slide into 30+ countries.",
+        "The billing platform that gives Superfoods the freedom to test, iterate, and roll-back.",
+        "The revenue engine that powered MakeSpace to launch a B2B model overnight.",
+        "The revenue toolkit that allowed Yousign to enter a new market that now drives 15% MRR.",
+        "The infrastructure that allows Rise Vision to ask What Does This Make Possible?"
+    ]
+
+    let leftbtn = document.getElementById("leftarrow")
+    let rightbtn = document.getElementById("rightarrow")
+    let dis = document.getElementById("des")
+    let image = document.getElementById("img")
+    let staffname = document.getElementById("name")
+
+    let imgcount = 0
+    rightbtn.addEventListener("click", function () {
+        imgcount++
+        if (imgcount === imagelink.length) {
+            imgcount = 0
+        }
+        image.src = imagelink[imgcount]
+        dis.innerHTML = des[imgcount]
+        staffname.innerHTML = name[imgcount]
+    })
+    leftbtn.addEventListener("click", function () {
+        imgcount--
+        if (imgcount < 0) {
+            imgcount = imagelink.length - 1
+        }
+        image.src = imagelink[imgcount]
+        dis.innerHTML = des[imgcount]
+        staffname.innerHTML = name[imgcount]
+    })
+</script>
+
+</html>
