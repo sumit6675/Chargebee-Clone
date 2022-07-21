@@ -1,0 +1,118 @@
+    /* login navbar */
+        
+    nav{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav img{
+        width: 120px;
+    }
+    #rightnav{
+        display: flex;
+        gap: 10px;
+        color: teal;
+    }
+    #rightnav h3{
+        margin-top: 13px;
+    }
+
+                          /* left main */
+    main{
+        width: 50%;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 10px;
+        padding: 60px;
+        display: flex;
+        gap: 35px;
+    }
+    #leftmain{
+        width: 48%;
+        text-align: left;
+    }
+    #leftmain img{
+        border-radius: 12px;
+    }
+    #leftmiddlepart{
+        display: flex;
+        gap: 15px;
+    }
+    #leftmain p:nth-child(2){
+        font-size: 13px;
+        color: teal;
+        margin-bottom: -18px;
+        margin-top: 35px;
+    }
+    #leftmain h4:nth-child(3){
+        width: 90%;
+    }
+    #leftmiddlepart{
+        font-size: 13px;
+        color: teal;
+    }
+                         /* right main */
+    
+    #rightmain{
+        width: 48%;
+        text-align: left;
+    }
+    form{
+        margin: 0 auto;
+        margin-top: 10px;
+        padding:20px;
+
+    }
+    label{
+        font-size: 20px;
+        color: teal;
+    }
+    input,
+    textarea{
+        width: 100%;
+        padding: 12px 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 16px;
+        margin-bottom: 6px;
+        resize: vertical;
+    }
+    input[type="submit"]{
+       background-color:rgb(255,120,70) ; 
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius:5px;
+        cursor: pointer;
+        width: 40%;
+        font-size: 18px;
+        margin-bottom: -10px;
+    }
+    button{
+        background-color: #2b619e;
+        display: block;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius:5px;
+        cursor: pointer;
+        margin: auto;
+        width: 55%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    form p{
+        position: relative;
+        left: 180px;
+        bottom: 40px;
+        color: teal;
+    }
+    #bottom{
+        text-align: center;
+    }
+    
+ 
+
+

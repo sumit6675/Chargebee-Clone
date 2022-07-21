@@ -1,0 +1,123 @@
+      #fixlogo {
+    position: fixed;
+    top: 520px;
+    right: 50px;
+}
+
+#fixlogo2 {
+    position: fixed;
+    top: 520px;
+    left: 30px;
+}
+
+      #signup-page{
+         display: grid;
+         grid-template-columns: 0.3fr 0.7fr;
+         text-align: center;
+         margin-top: -10px;
+       }
+       #leftimg1{
+         width: 60%;
+         background-color: rgb(180,180,180);
+       
+       }
+       #name{
+        background-color: rgb(56,3,154);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: -4px;
+        color: white;
+        padding: 15px;
+        }
+        #name h1{
+           
+            margin-bottom: -5px;
+        }
+       #leftpart{
+       background-color: rgb(180,180,180);
+       }
+       #leftbotom{
+        background-color: rgb(80,10,210);
+        margin-top: -21px;
+       }
+       #leftbotom h4{
+        padding: 40px;
+        width: 70%;
+        margin: auto;
+        color: aliceblue;
+       }
+       #leftpart button{
+        position: absolute;
+        top: 45%;
+        font-size: 1.5rem;
+        background-color: transparent;
+       }
+       #leftbtn{
+        left: 30px;
+       }
+       #rightbtn{
+       left: 350px;
+       }
+       #signupnav{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+
+       }
+       #signupnav img{
+       width: 20%; 
+       margin-left: 100px;
+       }
+       #signupform{
+        width: 60%;
+        margin: auto;
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+        padding: 5px;
+    }
+       form{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 80%;
+        box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+       padding: 30px;
+       text-align: left;
+       }
+       label{
+        font-size: 20px;
+        color: teal;
+        
+       }
+       input{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 26px;
+        resize: vertical;
+       }
+       input[type="submit"]{
+        background-color: #2b619e;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 50%;
+        font-size: 20px;
+       }
+       input[type="submit"]:hover{
+        background-color: #3973b6;
+       }
+       #checkbox{
+        font-size: 15px;
+        margin-bottom: 10px;
+       }
+       p{
+        color: teal;
+       }
+       #p2{
+        font-size: 12px;
+       }
+       
