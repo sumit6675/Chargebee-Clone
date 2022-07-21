@@ -1,5 +1,7 @@
     /* login navbar */
-        
+     p{
+        font-family: 'Trebuchet MS', sans-serif;
+     }   
     nav{
         width: 95%;
         margin: auto;

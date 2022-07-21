@@ -3,6 +3,9 @@
     top: 520px;
     right: 50px;
 }
+p{
+  font-family: 'Trebuchet MS', sans-serif;
+}
 
 #fixlogo2 {
     position: fixed;
