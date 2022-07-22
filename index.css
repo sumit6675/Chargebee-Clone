@@ -1,6 +1,11 @@
 p{
   font-family: 'Trebuchet MS', sans-serif;
 }
+
+  h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
 #demo{
     background-color: transparent;
     border: 1px solid white;

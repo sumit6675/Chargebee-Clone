@@ -1,0 +1,65 @@
+#topofdemopage {
+    background-color: rgb(87, 0, 179);
+    color: white;
+}
+
+#formdetails {
+    background-color: aliceblue;
+    width: 90%;
+}
+
+#formdetails form input,
+#formdetails form p,
+#formdetails form label {
+    color: black;
+}
+
+#descriptionAndForm {
+    width: 80%;
+    margin: auto;
+    padding-top: 110px;
+}
+
+#topofdemopage img {
+    position: relative;
+    top: 100px;
+    left: 1040px;
+}
+
+#getademoleftpart {
+    width: 90%;
+    padding: 60px auto;
+}
+
+#getademoleftpart h1 {
+    font-size: 50px;
+    margin: auto;
+}
+
+#getademoleftpart h2 {
+    font-size: 25px;
+    width: 80%;
+    margin-top: 20px;
+    list-style-type: disc;
+}
+
+#getademoleftpart p {
+    margin-top: 20px;
+    font-size: 22px;
+    font-style: italic;
+}
+#dailius{
+    width: 80%;
+      margin: auto;
+      margin-top: 100px;
+}
+#dailius img{
+    position: relative;
+    bottom: 244px;
+    left: 700px;
+}
+#groupofimages{
+    position: relative;
+    bottom: 240px;
+    left: 135px;
+}
