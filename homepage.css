@@ -3,6 +3,9 @@
     text-decoration: none;
     color: black;
  }
+ h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
  p{
     font-family: 'Trebuchet MS', sans-serif;
  }

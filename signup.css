@@ -6,7 +6,11 @@
 p{
   font-family: 'Trebuchet MS', sans-serif;
 }
-
+h1{
+  h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+}
 #fixlogo2 {
     position: fixed;
     top: 520px;
