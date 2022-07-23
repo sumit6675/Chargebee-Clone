@@ -1,0 +1,116 @@
+#headinddiv{
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(101,26,186) ;
+    text-align: center;
+    color: aliceblue;
+}
+#formdetails label{
+    font-size: 18px;
+}
+select{
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+.AutoMargin{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 170px;
+}
+.AutoMargin h3{
+    color: blue;
+}
+.AutoMargin p{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    color: teal;
+}
+.companylogo{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin-top: 150px;
+    margin-left:150px;
+    margin-bottom: 70px;
+    
+}
+.companylogo div{
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.companylogo div:hover{
+   transform: translate3d(10px,20px,10px);
+}
+.companylogo img{
+   justify-content: center;
+   align-items: center;
+}
+#sellpartner{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 70px;
+}
+#sellpartner img{
+    margin-left: 80px;
+}
+#sellpartner p{
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    color: teal;
+}
+#partnerbtn{
+    margin-top: 50px;
+    background-color: #2b619e;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 25%;
+        font-size: 20px;
+        margin-left: 490px;
+        margin-bottom: 70px;
+}
+#partnerbtn:hover{
+    background-color: #3973b6;
+}
+#bluebackground{
+background-color: rgb(78,1,171);
+}
+#bluebackground div{
+    width: 80%;
+    margin: auto;
+
+}
+#bluebackground h1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 55px;
+    padding: 50px;
+}
+#bluebackground p{
+    width: 60%;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
