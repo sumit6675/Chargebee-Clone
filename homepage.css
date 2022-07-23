@@ -311,6 +311,7 @@ a:link {
     width: 60%;
     margin: auto;
     text-align: center;
+  
 }
 
 #demo-details{
@@ -326,8 +327,8 @@ a:link {
 }
 #leaderspring{
     position: relative;
-    bottom: -600px;
-    left: 490px;
+    bottom: 0px;
+    left: 10px;
 }
 #demo-left h1{
     font-size: 50px;
