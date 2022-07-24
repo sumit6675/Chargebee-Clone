@@ -8,7 +8,7 @@ form.addEventListener("submit",function(e){
     }
  signupls.forEach(function(e){
     if(e.email===loginobj.email && loginobj.pass==="1257"){
-        alert("Sign in success!)
+        alert("Sign in success!")
         window.location.href="homepage.html"
     }else{
         alert("Wrong Details! or please Signup first!")
