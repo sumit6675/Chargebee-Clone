@@ -26,44 +26,52 @@ https://legendary-crisp-63e43f.netlify.app/
 
 - ### Homepage
 
-[![HYjBaB1.png](https://iili.io/HYjBaB1.png)](https://freeimage.host/)
-
-- ### Anthropologie-Home page
-
-[![HYjBcEF.png](https://iili.io/HYjBcEF.png)](https://freeimage.host/)
+[![HYjT6Rn.png](https://iili.io/HYjT6Rn.png)](https://freeimage.host/)
 
 - ### Navbar
 
-[![HYjB7LP.png](https://iili.io/HYjB7LP.png)](https://freeimage.host/)
+[![HYjTgSt.png](https://iili.io/HYjTgSt.png)](https://freeimage.host/)
 
 - ### User sign up Page
 
-[![HYjBRIV.png](https://iili.io/HYjBRIV.png)](https://freeimage.host/)
+[![HYjTLxf.png](https://iili.io/HYjTLxf.png)](https://freeimage.host/)
 
 - ### User Log in Page
 
-[![HYjBumQ.png](https://iili.io/HYjBumQ.png)](https://freeimage.host/)
+[![HYjTvPp.png](https://iili.io/HYjTvPp.png)](https://freeimage.host/)
 
 - ### Footer Page
 
-  [![HYjCAas.png](https://iili.io/HYjCAas.png)](https://freeimage.host/)
+ [![HYjTkVR.png](https://iili.io/HYjTkVR.png)](https://freeimage.host/)
 
-- ### Product page
+- ### Pricing page
 
-[![HYjB5hB.png](https://iili.io/HYjB5hB.png)](https://freeimage.host/)
+[![HYjT4HX.png](https://iili.io/HYjT4HX.png)](https://freeimage.host/)
+
+- ### Coustomer page
+
+[![HYjTiDG.png](https://iili.io/HYjTiDG.png)](https://freeimage.host/)
+
+- ### Partner page
+
+[![HYjTSKN.png](https://iili.io/HYjTSKN.png)](https://freeimage.host/)
+
+- ### Demo page
+
+[![HYjTPNs.png](https://iili.io/HYjTPNs.png)](https://freeimage.host/)
 
 
   # Languages Used
 
 <ul dir="auto">
- <ol dir="auto">◉ JavaScript : 97.8%</ol>
- <ol dir="auto">◉ other : 1.6%</ol>
+ <ol dir="auto">◉ HTML : 74%</ol>
+ <ol dir="auto">◉ CSS : 19%</ol>
+ <ol dir="auto">◉ CSS : 7%</ol>
  </ul>
 
 ### Prerequisites
 
 - Node.js
-- npm
 
 ### Installing
 
@@ -74,21 +82,16 @@ https://legendary-crisp-63e43f.netlify.app/
 
 ## Tech Stack
 
-- React JS
+- HTML
+- CSS
 - JavaScript
-- Chakra UI
-- Redux JS
-- Axios
 
 ## Other Tools and Libraries
 
-- NPM
-- React Icons
-- React Swiper Slider
 - Netlify
 - Git
 
 ## Contributing
 
-We welcome contributions to the Anthropologie Clone website. If you have an idea for a new feature or have found a bug, please open an issue in the repository.
+We welcome contributions to the Chargebee Clone website. If you have an idea for a new feature or have found a bug, please open an issue in the repository.
 
